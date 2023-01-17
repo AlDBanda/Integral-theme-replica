@@ -1,0 +1,16 @@
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1155px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  grid-gap: 40px;
+
+  .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}

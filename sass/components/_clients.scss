@@ -1,0 +1,27 @@
+.clients {
+  h1 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 40px;
+
+    span {
+      background: #00aded;
+      height: 2px;
+      display: block;
+      max-width: 100px;
+      // margin: 20px auto 20px auto;
+      margin: 20px auto;
+      // margin: 20px;
+    }
+  }
+
+  &__images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // border: 1px red dotted;
+    max-width: 1155px;
+    margin: 30px auto;
+  }
+}

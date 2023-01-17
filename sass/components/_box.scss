@@ -1,0 +1,36 @@
+.box {
+  width: 300px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  background: #F3F3F3;
+
+ 
+  &__header{
+    font-weight: bold;
+    display: inline-block
+    
+  }
+
+  &__info {
+    font-weight: normal;
+    font-style: italic;
+    opacity: 0.7;
+    display: inline-block;
+  }
+
+  &__project {
+    color: #00aded;
+    font-weight: bold;
+
+  }
+
+  &__paragraph {
+      margin-bottom: 25px;
+      font-family: open sans;
+      line-height: 1.6;
+      display: inline-block;
+      margin-bottom: 25px;
+      
+      }
+  }
+

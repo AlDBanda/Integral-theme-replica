@@ -1,0 +1,117 @@
+.services {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--gamma);
+  display: grid;
+  
+
+  &__para1 {
+    color: #888;
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: open sans;
+
+
+  }
+
+  &__para2 {
+    color: #888;
+    text-align: center;
+    margin: 0 0 10px;
+    display: inline-block;
+  }
+
+  &__title {
+    position: relative;
+    color: var(--light);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &__image {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+  }
+
+  &__icons {
+    display: inline-block;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+        
+      }
+
+  }
+
+  .header {
+    width: 148px;
+    // font-size: 40px;
+    margin: 0 auto;
+    color: var(--light);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    position: relative;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1.25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+      
+
+  }
+   
+
+
+.lines {
+  margin: 10px;
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+
+.lines::after,
+.lines::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: var(--elements);
+  width: 45%;
+  display: block;
+  
+  
+  
+
+}
+
+.lines::after {
+  left: 0;
+  top:50%;
+  z-index: 4;
+}
+
+.lines::before {
+  right: 0;
+  top: 50%
+
+  
+}
+
+
+
+
+
